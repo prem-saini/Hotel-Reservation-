@@ -1,0 +1,104 @@
+.Hotel {
+    margin: 20px;
+}
+
+.Hotelmain {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HotelDescrition {
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hotelheading {
+    padding: 0px 75px;
+}
+
+.otelDesc {
+    width: 60%;
+    color: black;
+
+}
+
+.HotelPrice {
+    width: 30%;
+    padding: 20px;
+    font-display: flex;
+    flex-direction: column;
+    background-color: #e2e2e2;
+}
+
+.otelDesc {
+    font-size: 12px;
+    margin: 20px;
+}
+
+.Hotelbook {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Hotelname {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.HotelAddress {
+    font-size: 12px;
+    gap: 20px;
+}
+
+.HotelDistance {
+    color: #0071c2;
+    font-weight: 600;
+}
+
+.HotelPriceNight {
+    color: #008009;
+    font-weight: 500;
+}
+
+.HotelWrapper {
+    width: 33%;
+}
+
+.HotelImg {
+    width: 100%;
+    object-fit: cover;
+    padding: 5.5px 0px 0px 0px;
+}
+
+.HotelImage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.hotelpri {
+    font-size: 16px;
+}
+
+.Hotelparagraph {
+    font-size: 12px;
+}
+
+.butto {
+    width: 180px;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}

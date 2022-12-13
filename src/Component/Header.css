@@ -1,0 +1,267 @@
+.Main {
+    background-color: blue;
+    height: 330px;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btnn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.left h2 {
+    color: aqua;
+    position: relative;
+    left: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.head_u {
+    display: flex;
+    list-style: none;
+
+}
+
+.head li {
+    padding: 0px 30px;
+    color: white;
+}
+
+.Header_third h2,
+p {
+    color: white;
+    padding: 10px 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.bt {
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(52, 52, 230);
+    border: none;
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+
+}
+
+.HeaderDate {
+    display: flex;
+    border: 3px solid yellowgreen;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    margin: 50px;
+
+
+}
+
+.headerinput input {
+    border: none;
+    outline: none;
+}
+
+.date {
+    position: absolute;
+    bottom: 20;
+}
+
+.butt {
+    width: 130px;
+    height: 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.option {
+    position: absolute;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+
+}
+
+.optionitem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+}
+
+.optioncounterAdd {
+    background-color: white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width:545px) {
+    .Main {
+        background-color: blue;
+        height: 430px;
+    }
+
+    .Header {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .right {
+        display: flex;
+    }
+
+    .btnn {
+        width: 90px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+        margin: 3px;
+        cursor: pointer;
+
+    }
+
+    .left h2 {
+        font-size: 23px;
+        color: aqua;
+        position: relative;
+        left: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .head_u {
+        display: flex;
+        list-style: none;
+
+    }
+
+    .head li {
+        padding: 0px 10px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 5px;
+    }
+
+    .Header_third h2,
+    p {
+        color: white;
+        padding: 10px 60px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .bt {
+        width: 150px;
+        height: 40px;
+        color: white;
+        background-color: rgb(52, 52, 230);
+        border: none;
+        position: relative;
+        left: 60px;
+        cursor: pointer;
+
+    }
+
+    .HeaderDate {
+        display: flex;
+        border: 3px solid yellowgreen;
+        height: 40px;
+        background-color: white;
+        border-radius: 5px;
+        align-items: center;
+        /* justify-content: space-between; */
+        padding: 10px 0px;
+        margin: 30px;
+
+
+    }
+
+    .headerinput input {
+        border: none;
+        outline: none;
+        width: 280px;
+    }
+
+    .date {
+        position: absolute;
+        bottom: 10;
+        font-size: 10px;
+    }
+
+    .butt {
+        width: 90px;
+        height: 30px;
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .option {
+        position: absolute;
+        background-color: white;
+        color: gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+
+    }
+
+    .optionitem {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .counter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        font-size: 12px;
+        color: black;
+    }
+
+    .optioncounterAdd {
+        background-color: white;
+        border-radius: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid blue;
+        cursor: pointer;
+    }
+}

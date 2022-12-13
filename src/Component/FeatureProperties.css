@@ -1,0 +1,129 @@
+.featurePropertiesImg {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.featureProperties {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.featurePropertiesItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.featurePropertiesName {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+
+.featurePropertiesCity {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 800;
+}
+
+.featurePropertiesPrice {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-weight: 500;
+}
+
+.Rateing {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-btn {
+    width: 70px;
+    border: 1px solid navy;
+    border-radius: 2px;
+    background-color: navy;
+    color: white;
+
+}
+
+.featurePropertiestype {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+
+@media screen and (max-width:545px) {
+    .featurePropertiesImg {
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 20px;
+    }
+
+    .featureProperties {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .featurePropertiesItem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featurePropertiesName {
+        font-size: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blueviolet;
+    }
+
+    .featurePropertiesCity {
+        font-size: 25px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+        font-weight: 800;
+    }
+
+    .featurePropertiesPrice {
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blue;
+        font-weight: 500;
+    }
+
+    .Rateing {
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .btn-btn {
+        width: 70px;
+        border: 1px solid navy;
+        border-radius: 2px;
+        background-color: navy;
+        color: white;
+
+    }
+
+    .featurePropertiestype {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blue;
+    }
+
+}

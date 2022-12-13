@@ -1,0 +1,39 @@
+.Mail {
+
+    background-color: #003580;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.MailInput input {
+    margin: 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+
+}
+
+.MailText {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.Mailtext {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.btnn-btnn {
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-align: center;
+
+
+}

@@ -1,0 +1,104 @@
+.SearchItem {
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-right: 20px;
+
+}
+
+.searchImg {
+    width: 250px;
+    height: auto;
+}
+
+.SearchItemDes {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.searchText {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.searchName {
+    color: blue;
+}
+
+.searchDistance {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchinfo {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchfactlity {
+    font-size: 12px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchfac {
+    color: #008009;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchcancle {
+    font-size: 20px;
+    color: #008009;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchfree {
+    font-size: 14px;
+    color: #008009;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.searchprice {
+    padding: 15px;
+}
+
+.searchtax {
+    padding: 15px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.bbttnn {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    border: transparent;
+    height: 40px;
+    cursor: pointer;
+}
+
+.SearchItemDeatils {
+    padding: 10px;
+
+}
+
+.searchprice {
+    font-weight: bold;
+}
+
+.searchtax {
+    font-weight: bold;
+}

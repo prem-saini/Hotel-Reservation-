@@ -1,0 +1,56 @@
+.list {
+    background-color: blue;
+    height: 180px;
+    padding: 20px;
+}
+
+
+.ListSearch {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Listleft {
+    width: 25%;
+    background-color: #febb02;
+    margin-left: 45px;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    height: 35rem;
+
+}
+
+.Listright {
+    width: 65%;
+}
+
+.footeritem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.in {
+    width: 100px;
+}
+
+.back {
+    background-color: white;
+
+    border-radius: 5px;
+    text-align: center;
+}
+
+.searchbtn {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #0bbe2e;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: transparent;
+}
